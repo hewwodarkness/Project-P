@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    background-color: white;
+    opacity: 0;
+	transition: 0.5s;
+	animation: show 1s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show{
+ 0%{ opacity:0.3; }
+ 100% { opacity:1; }
+
+}
+
+.features__title1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    word-wrap: normal;
+    color: red;
+}
+.iconsetting{
+    float: left;
+    width: 30px;
+    height: 30px;
+  
+    padding: 0 7px;
+    margin-bottom: 100px;
+}
+
+
+.features1 {
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    margin: auto auto;
+    border-bottom: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;    
+}
+
+.jsbtn {
+    background-color:#31708f;
+    border: none;
+    color: white;
+    padding: 9px 12px; 
+    font-size: 16px;
+    cursor: pointer; 
+    float: right;
+    font-family: 'Nunito', sans-serif;
+}
+
+.jsbtn:hover {
+    background-color: DodgerBlue;
+    opacity: 1;
+}
+
+.currentdevicesitem1 {
+    width: 17,5%;
+    width: 250px;
+
+    padding: 0 40px;
+    text-align: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.csfeatures {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.csplayers {
+width: 18%;
+    opacity: initial;
+    padding: 0 40px;
+    text-align: center;
+    opacity: 0;
+	transition: 1s;
+	animation: show 2s 1;
+       animation-fill-mode: forwards;
+}
+
+@keyframes show{
+ 0%{ opacity:0; }
+ 100% { opacity:1; }
+}
+
+a { 
+    text-decoration: none;
+    color: #000 !important;
+} 
+
+.currentdevicesitem1:hover {
+    background-color: #ffefd2;
+    opacity: 1;
+    transition: 1s;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.features__title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    word-wrap: normal
+
+}
+
+.devices__title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    word-wrap: normal;
+    width: 230px;
+}
+
+.features__item {
+    width: 30%;
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.features__item1 {
+    width: 17,5%;
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.mouse_settings {
+    width: 30%;
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.features__icon {
+    margin-bottom: 5px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    object-fit: cover;
+
+}
+
+.settings_icon {
+    margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.two_icons {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 0 7px;
+}
+
+.characterimg {
+    width: 10px;
+    height: 10px;
+
+}
+
+.intro {
+    width: 100%;
+    max-width: 1170px;
+    padding-top: 200px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.alert.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bcdff1;  
+    margin-bottom: 25px;  
+}
+
+.alert {
+    padding: 15px;
+    border-left: 5px solid transparent;
+    position: relative;
+    text-align: left;
+}
+
+.alert-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.alert .alert-title {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.alert-description {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.alert .alert-description {
+    font-size: 13px;
+    line-height: 2;
+}
+
+.currentdevices {
+    color: #ea98dc;
+    font-size: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.currentdevicesimg {
+    width: 17,5%;
+    width: 150px;
+    height: 150px;
+    padding: 0 40px;
+    text-align: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.csplayersimg {
+    width: 17,5%;
+    width: 150px;
+    height: 150px;
+    padding: 0 0px;
+    text-align: center;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.currentdevicesitem {
+    text-align: center;
+    
+}
+
+.settings1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding-right: 30px;
+}
+
+.settings__title{
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.setth4{
+    font-family: 'Nunito', sans-serif;
+    margin-block-start: 0px;
+    margin-block-end: 0em;
+    margin-inline-end: 0px;
+    margin-bottom: 10px;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
+
+.textarea {
+	resize: none;
+	height: 18px;
+	border: 1px solid  #bcdff1;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+  }
+
+  .output {
+	margin-bottom: 5px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    object-fit: cover;
+  }
+
+  
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-color: #252525;
+    padding: 45px 0;
+    margin-bottom: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+.imgnav {
+    height: 30px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    font-size: 18px;
+    font-weight:normal;
+    color: white;
+
+}
+
+.nav__link {
+    margin-left: 100px;
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .1s linear;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    
+}

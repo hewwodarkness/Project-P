@@ -2,13 +2,13 @@
 echo "<!DOCTYPE html>
 <link rel="stylesheet" href="css/csplayerlist.css">
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/csplayer.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-
 <?php
     include("menu.php");
-    include("db_conn1.php");
+    include("db_conn.php");
     $sql_select = "SELECT * FROM main";
     $result = mysqli_query($conn, $sql_select);
     $row = mysqli_fetch_all($result, MYSQLI_ASSOC);

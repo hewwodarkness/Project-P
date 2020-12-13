@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<php
+echo "<!DOCTYPE html>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Settings</title>
-    <link rel="stylesheet" href="css/csplayer.css">
-<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/8.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,12 +25,12 @@
                   <h1 class="features__title"><input type="text" name="name"></h1>
                   <div class="features__text">An average player</div>
                   <div>
-                      <i>
-                          <a href="" target="_blank"><img class="two_icons" src="img/5.png"></a>
-                      </i>
-                      <i>
-                          <a href="" target="_blank"><img class="two_icons" src="img/6.png"></a>
-                      </i>
+                  <i>
+                    <a href="" target="_blank"><img class="two_icons" src="https://www.flaticon.com/svg/static/icons/svg/2111/2111630.svg"></a>
+                </i>
+                <i>
+                    <a href="" target="_blank"><img class="two_icons" src="https://www.flaticon.com/svg/static/icons/svg/733/733635.svg"></a>
+                </i>
                   </div>
               </div>
               <div class="mouse_settings">
@@ -73,26 +73,17 @@
                   <span class="alert-description" id="testtext">  
                     <input type="text" name="crosshair">
                   </span>
-      
-                  <!-- <button class="jsbtn" id="cp_btn"><i class="fa fa-home"></i>Copy</button> -->
-                  
-                
-      
           </div>
           </div>
           <div>
-              <div class="alert alert-info" role="alert">
+            <div class="alert alert-info" role="alert">
             <span class="alert-title">
                       Viewmodel
                   </span>
               <span class="alert-description" id="testtext1">  
                 <input type="text" name="viewmodel">
                       </span>
-      
-                      <!-- <button class="jsbtn" id="cp_btn1"><i class="fa fa-home"></i>Copy</button> -->
-                  
-                
-          
+
           </div>
           </div>
           <div>
@@ -103,9 +94,6 @@
               <span class="alert-description" id="testtext2">  
                       </span>
                       <input type="text" name="cl_bob">
-                      <!-- <button class="jsbtn" id="cp_btn2"><i class="fa fa-home"></i>Copy</button> -->
-                  
-              
           </div>
           </div>
           <input type="submit" name="send" value="Отправить">

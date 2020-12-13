@@ -1,6 +1,16 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    opacity: 0;
+	transition: 0.5s;
+	animation: show 1s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show{
+ 0%{ opacity:0.3; }
+ 100% { opacity:1; }
+
 }
 
 .intro {
@@ -10,7 +20,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     float: center;    
-    padding-top: 120px;
 }
 
 .header {
@@ -19,8 +28,9 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
-    background-color: #343434;
+    background-color: #252525;
     padding: 45px 0;
+    margin-bottom: 300px;
 }
 
 a {

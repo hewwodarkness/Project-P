@@ -1,59 +1,127 @@
+.smallinfo {
+    max-width: 1350px;
+    margin: auto auto;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-top: 150px;
+    vertical-align: middle;
+    display: flex;
+    background-color:#f7f7f7;
+    background-clip: content-box;
+}
+
+a {
+    text-decoration: none !important;
+    color:black;
+}
+.aaa
+{
+    color: #bcbcbc;
+}
+.p50perc1{
+    width: 50%;
+    margin: 15 15 15 15;
+    display: flex;
+}
 .intro {
     width: 100%;
-    max-width: 1230px;
+    max-width: 1150px;
     margin: auto auto;
     margin-left: auto;
     margin-right: auto;
-    float: center;    
-    padding-top: 120px;
+    float: center;   
 }
 .features {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0;
+    margin: 20px auto 55px auto ;
+    height: 410px;
+    width: 1150px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
-.features__item {
-    width: 30%;
-    padding: 0 10px;
-    margin: 10px 0;
-    text-align: center;
+.features__title {
+    color: #dc9651;
+    margin: 20px 0 0 0 ;
 }
-.mouse_settings {
-    width: 30%;
-    padding: 0 10px;
-    margin: 10px 0;
-    text-align: left;
+.features__text {
+    margin: 4px 0 0 0 ;
 }
-
-.features__title{
-    word-wrap: normal
-
-}
-.testicon{
-    display: flex;
-    line-height: 60px;
-    float: left;
-    width: 200px;
-    height: 120px;
-    background-color: gray;
-}
-
-.settings_icon{
-    width: 40px;
-    height: 40px;
-    margin: auto;
-
-}
-
 .features__icon {
-    margin-bottom: 5px;
-    width: 200px;
-    height: 200px;
+    margin-bottom: 20px;
+    width: 268px;
+    height: 268px;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
     object-fit: cover;
+    float: left;
+}
+ .iconss{
+     margin: 0; 
+ }
+
+ .texticon {
+     vertical-align: middle;
+     margin-left: 7px;
+ }
+.features__item {
+    text-align: center;
+    height: 400px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto auto auto 0;
+}
+
+.features__item1 {
+    width: 70%;
+    margin: 10px 0;
+    vertical-align: middle;
+
+}
+.p50perc{
+    width: 50%;
+    margin: 10 10 10 10;
+    display: flex;
+}
+.item50 {
+    display: flex;
+    height: 100px;
+    
+}
+.htitle {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 2px;
+    margin-top: 7px;
+}
+.htitle1 {
+    font-size: 18px;
+    margin-top: 7px;
+}
+.item50gray {
+    height: 100px;
+    display: flex;
+    background-color: #f7f7f7;
+}
+.testicon {
+    vertical-align:middle;
+    width: 100%;
+    height: 100px;
+    width: 500px;
+    display: flex;
+}
+
+.settings_icon {
+    width: 40px;
+    height: 40px;
+    margin: auto 0 auto 0;
+
 }
 
 .two_icons {
@@ -63,10 +131,10 @@
     padding: 0 7px;
 }
 .alert.alert-info {
-    color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bcdff1;  
-    margin-bottom: 25px;  
+    width:90%;
+    color: #797979;
+    background-color: #f7f7f7;
+    border-color: #efceaf;  
 }
 
 .alert {
@@ -75,9 +143,23 @@
     position: relative;
     text-align: left;
 }
+
+.alertt {
+    display: flex;
+    width: 100%;
+    width: 1150px;
+    height: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto auto 10px auto;
+    height: max-content;
+}
+
 .alert-title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    color: black;
+    font-size: 30px;
 }
 
 .alert .alert-title {
@@ -85,30 +167,35 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
-}
-
-.alert-description {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
+    
 }
 
 .alert .alert-description {
     font-size: 13px;
     line-height: 2;
+
+
+}
+.buttonalert {
+    width: 10%;
 }
 
 .jsbtn {
-    background-color:#31708f;
+    background-color:#efcead;
     border: none;
-    color: white;
-    padding: 9px 12px; 
+    color: #474747;
     font-size: 16px;
     cursor: pointer; 
-    float: right;
-    font-family: 'Nunito', sans-serif;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .jsbtn:hover {
-    background-color: DodgerBlue;
+    background-color: #eee3d7;
     opacity: 1;
+}
+.alertimg {
+    margin-bottom: 5px;
 }
