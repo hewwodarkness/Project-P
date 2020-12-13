@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.intro {
+    width: 100%;
+    max-width: 1230px;
+    margin: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;    
+    padding-top: 120px;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #343434;
+    padding: 45px 0;
+}
+
+a {
+    text-decoration: none;
+}
