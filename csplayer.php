@@ -47,7 +47,7 @@ echo "<!DOCTYPE html>
                     <img class="settings_icon" src="img/3.svg" vspace="5" hspace="5">
                     <div class="texticon">
                         <p class="htitle">DPI</p>
-                        <p class="htitle1"><?=$row['name']?></p>
+                        <p class="htitle1"><?=$row['dpi']?></p>
                     </div>
                 </div>
                 <div class="p50perc">
