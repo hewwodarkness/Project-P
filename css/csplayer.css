@@ -1,13 +1,14 @@
 .smallinfo {
-    max-width: 1350px;
-    margin: auto auto;
+    width: 1350px;
     margin-left: auto;
     margin-right: auto;  
-    padding-top: 150px;
+    margin-top: 150px;
     vertical-align: middle;
     display: flex;
     background-color:#f7f7f7;
     background-clip: content-box;
+    border-radius: 5px;
+    
 }
 
 a {

@@ -1,7 +1,6 @@
 <php
 echo "<!DOCTYPE html>
 <link rel="stylesheet" href="css/csplayer.css">
-<link rel="stylesheet" href="css/main.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
@@ -31,7 +30,15 @@ echo "<!DOCTYPE html>
         <div class="features__item">
             <img class="features__icon" src="uploads/<?=$row['img']?>" alt="">
             <h1 class="features__title"><?=$row['name']?></h1>
-            <div class="features__text">An average player</div>
+            <?php if ($row['id'] == 1): ?>
+                    <div class="features__text">Creator</div>
+            <?php endif ?>
+            <?php if ($row['id'] == 2): ?>
+                <div class="features__text">Designer</div>
+            <?php endif ?>
+            <?php if ($row['id'] != 1 && $row['id'] != 2): ?>
+                <div class="features__text">An average player</div>
+            <?php endif ?>
             <div class="iconss">
                 <i>
                     <a href="" target="_blank"><img class="two_icons" src="https://www.flaticon.com/svg/static/icons/svg/2111/2111630.svg"></a>

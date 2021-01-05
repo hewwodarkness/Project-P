@@ -3,7 +3,16 @@ body {
     font-size: 14px;
 }
 
-
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #252525;
+    padding: 45px 0;
+    margin-bottom: 300px;
+}
 .imgnav {
     height: 30px;
 }
@@ -12,12 +21,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .nav {
     display: flex;
     font-size: 18px;
-    font-weight:normal
-
+    font-weight:normal;
 }
 
 .nav__link {
@@ -28,6 +37,13 @@ body {
     transition: opacity .1s linear;
 }
 
+.nav__link1 {
+    margin-left: 100px;
+    color: red;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .1s linear;
+}
 .nav__link:first-child {
     margin-left: 0;
 }
@@ -41,4 +57,10 @@ body {
     max-width: 1350px;
     margin: 0 auto;
     
+}
+
+.menuicon {
+    padding-right: 2px;
+    height: 22px;
+    vertical-align: top;
 }

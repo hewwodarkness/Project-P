@@ -15,14 +15,14 @@ body {
 
 .intro {
     width: 100%;
-    max-width: 1230px;
+    max-width: 1350px;
     margin: auto auto;
     margin-left: auto;
     margin-right: auto;
     float: center;    
 }
 
-.header {
+/* .header {
     width: 100%;
     position: absolute;
     top: 0;
@@ -31,7 +31,7 @@ body {
     background-color: #252525;
     padding: 45px 0;
     margin-bottom: 300px;
-}
+} */
 
 a {
     text-decoration: none;

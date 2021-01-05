@@ -1,35 +1,42 @@
-
-
 .csfeatures {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0;
-}
-
-.features__icon {
-    margin-bottom: 5px;
-    width: 200px;
-    height: 200px;
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
-    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-right: 0px;
 }
 
 .csplayers {
-    width: 18%;
+    background-color: #eee3d7;
+    opacity: 1;
+    transition-duration: 0.2;
+    background-color: #f7f7f7;
+    width: 200px;
+    height: 160px;
     opacity: initial;
-    padding: 0 40px;
-    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    border-radius: 7px;
+    font-family: Formular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-    
+
+.csplayers:hover {
+    background-color: #eee3d7;
+    opacity: 1;
+    transition-duration: 0.2s
+}
+
 .csplayersimg {
     width: 17,5%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     padding: 0 0px;
-    text-align: center;
     object-fit: cover;
     overflow: hidden;
     border-top-left-radius: 50% 50%;
@@ -38,10 +45,168 @@
     border-bottom-left-radius: 50% 50%;
 }
 
+.playerdevice {
+    width: 100%;
+    width: 110px;
+    height: 110px;
+    padding: 0 0px;
+    object-fit:fill;
+    overflow: hidden;
+    vertical-align: center;
+}
+
+.playerdevice1 {
+    width: 100%;
+    width: 28px;
+    height: 28px;
+    padding: 0 0px;
+    object-fit:fill;
+    overflow: hidden;
+    vertical-align: center;
+}
+
+#parent {
+    position: absolute;
+    padding-bottom: 50px;
+ }
+
+ .socialicons {
+    padding-top: 5px;
+    fill: green;
+    padding-bottom: 0px;
+ }
+.socials {
+    width: 17,5%;
+    width: 25px;
+    height: 25px;
+    padding: 0 0px;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+    margin-bottom: 0px;
+    color: rgb(152, 155, 174);
+    position: relative;
+    bottom: 0;
+}
+
 .csplayerlisttitle { 
-    color: #000;
+    display: block;
+    font-family: Activist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    margin-top: 6px;
+    margin-bottom: 0px;
+    text-align: left;
+    
 } 
 
-.intro{
-    padding-top: 150px;
+.csplayerlisttitle1 { 
+    font-family: Formular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    color: rgb(152, 155, 174);
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.discord { 
+    font-family: Formular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    color: rgb(152, 155, 174);
+    margin-top: 6px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    display: flex;
+    padding-top: 34px;
+}
+
+.discord1 {
+    padding-left: 5px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.csplayerlisttitle11 { 
+    font-family: Formular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    color: rgb(152, 155, 174);
+    margin-top: 6px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.csplayerlisttitle111 { 
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    color: black;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.intro1 {
+    width: 100%;
+    width: 1350px;
+    display: flex;
+    margin: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;   
+}
+
+.flexic{
+    display: flex;
+}
+
+.smallinfo11 {
+    background-color:#f7f7f7;
+    background-clip: content-box;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.leftside{
+    width: 100%;
+    margin: 15 15 0 15;
+    display: flex;
+}
+
+/* .everyperson {
+    height: min-content;
+} */
+
+/* .csplayers:not(:nth-child(5n)){
+    margin-right: 26px;
+  } */
+
+.something{
+    padding: 0 0 0 20px;
+    vertical-align: middle;
+    text-align: right;
+    text-align: end;
+    border-color: lightblue;
+    border-style: 5px solid transparent;
+ 
 }

@@ -12,7 +12,11 @@ echo "<!DOCTYPE html>
                 <a class="nav__link" href="http://hewwodarkness.github.io">Portfolio</a>
                 <a class="nav__link" href="csplayerlist.php">Players list</a>
                 <a class="nav__link" href="form.php">Add player</a>
-                <a class="nav__link" href="#">Calculator</a>
+                <a class="nav__link" href="https://github.com/hewwodarkness/designv2/issues/new">
+                    <img class="menuicon" src="https://www.flaticon.com/svg/static/icons/svg/733/733553.svg">
+                        Report bug
+                </a>
+                <a class="nav__link1" href="#">Calculator</a>
             </nav>
         </div>
     </div>

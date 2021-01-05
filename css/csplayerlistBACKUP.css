@@ -1,0 +1,51 @@
+.csfeatures {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.features__icon {
+    margin-bottom: 5px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    object-fit: cover;
+}
+
+.csplayers {
+    width: 18%;
+    opacity: initial;
+    padding: 0 40px;
+    text-align: center;
+}
+
+    
+.csplayersimg {
+    width: 17,5%;
+    width: 150px;
+    height: 150px;
+    padding: 0 0px;
+    text-align: center;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.csplayerlisttitle { 
+    color: #000;
+} 
+
+/* .intro{
+    padding-top: 150px;
+} */
+.intro {
+    width: 100%;
+    max-width: 1350px;
+
+}

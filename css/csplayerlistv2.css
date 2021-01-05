@@ -1,0 +1,60 @@
+.csfeatures {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.csplayers {
+    width: 230px;
+    opacity: initial;
+    padding: 0 20px 0px 20px;
+    text-align: center;
+    border: 3px solid;
+    border-color: #efcead;
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+    
+.csplayersimg {
+    width: 17,5%;
+    width: 70px;
+    height: 70px;
+    padding: 0 0px;
+    text-align: center;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-color: #efcead;
+}
+
+.csplayersimg1 {
+    width: 17,5%;
+    width: 50px;
+    height: 50px;
+    padding: 0 0px;
+    text-align: center;
+    object-fit: cover;
+    border-color: #efcead;
+
+}
+
+.csplayerlisttitle { 
+    color: #000;
+    font-size: 12px;
+} 
+
+.intro{
+    padding-top: 150px;
+}
+body
+{
+    background-color: gray;
+
+}
