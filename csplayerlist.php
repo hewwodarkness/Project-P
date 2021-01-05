@@ -8,7 +8,7 @@ echo "<!DOCTYPE html>
 
 <?php
     include("menu.php");
-    include("db_conn.php");
+    include("db_conn1.php");
     // $sql_select = "SELECT * FROM main";
     // $result = mysqli_query($conn, $sql_select);
     // $row = mysqli_fetch_all($result, MYSQLI_ASSOC);

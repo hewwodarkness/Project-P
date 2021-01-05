@@ -5,7 +5,7 @@ echo "<!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
 <?php 
-    include("db_conn.php");
+    include("db_conn1.php");
     include("menu.php");
     $id = $_GET['id'];
     $sql_select = "SELECT * FROM main WHERE id =".$id;

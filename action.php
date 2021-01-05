@@ -1,4 +1,4 @@
-<?php include "db_conn.php"; ?>
+<?php include "db_conn1.php"; ?>
 <?php
 $img_name = $_FILES['my_image']['name'];
 $img_size = $_FILES['my_image']['size'];
