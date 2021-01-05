@@ -21,8 +21,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
+
 .nav {
     display: flex;
     font-size: 18px;
@@ -63,4 +63,30 @@ body {
     padding-right: 2px;
     height: 22px;
     vertical-align: top;
+}
+
+@media (min-width: 601px) and (max-width: 1200px)
+{
+    .nav__link {
+        margin-left: 80px;
+    }
+
+    .nav__link1 {
+        margin-left: 80px;
+    }
+
+    .nav {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 600px) 
+{
+    .imgnav {
+        height: 110px;
+    }
+    .nav {
+        display: none;
+    }
 }

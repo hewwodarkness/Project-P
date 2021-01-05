@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 10px;
-    padding-right: 0px;
 }
 
 .csplayers {
@@ -11,7 +10,7 @@
     opacity: 1;
     transition-duration: 0.2;
     background-color: #f7f7f7;
-    width: 200px;
+    width: 217px;
     height: 160px;
     opacity: initial;
     padding-bottom: 50px;
@@ -70,7 +69,7 @@
     padding-bottom: 50px;
  }
 
- .socialicons {
+.socialicons {
     padding-top: 5px;
     fill: green;
     padding-bottom: 0px;
@@ -86,7 +85,6 @@
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
-
     margin-bottom: 0px;
     color: rgb(152, 155, 174);
     position: relative;
@@ -169,8 +167,6 @@
     width: 1350px;
     display: flex;
     margin: auto auto;
-    margin-left: auto;
-    margin-right: auto;
     float: center;   
 }
 
@@ -185,6 +181,7 @@
     margin: 20px 0;
     width: 40%;
     border-radius: 5px;
+    
 }
 
 .leftside{
@@ -209,4 +206,138 @@
     border-color: lightblue;
     border-style: 5px solid transparent;
  
+}
+
+.smallinfo {
+    width: 1350px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 150px;
+    vertical-align: middle;
+    display: flex;
+    background-color:#f7f7f7;
+    background-clip: content-box;
+    border-radius: 5px;
+    
+}
+
+@media (max-width: 1200px)
+{
+    .p50perc1 {
+        font-size: 20px;
+    }
+
+    .imgup {
+        height: 15px;
+    }
+
+    .leftside {
+        font-size: 20px;
+    }
+
+    .csplayers {
+        width: 293px;
+        height: 200px;
+        opacity: initial;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        padding-left: 15px;
+        padding-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        text-align: left;
+        display: flex;
+    }
+
+    .csplayersimg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .playerdevice {
+        width: 100%;
+        width: 160px;
+        height: 160px;
+    }
+
+  
+}
+
+@media (max-width: 600px)
+{
+    .smallinfo {
+        padding-top: 100px;
+    }
+    
+    .p50perc1 {
+        font-size: 40px;
+    }
+
+    .imgup {
+        height: 38px;
+    }
+
+    .leftside {
+        font-size: 40px;
+    }
+
+    .csplayers {
+        width: 920px;
+        height: 150px;
+        opacity: initial;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        padding-left: 15px;
+        padding-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        text-align: left;
+        display: flex;
+    }
+
+    .csplayersimg {
+        width: 190px;
+        height: 190px;
+    }
+
+    .playerdevice {
+        width: 100%;
+        width: 130px;
+        height: 130px;
+    }
+
+    .csplayerlisttitle {
+        font-size: 60px;
+        padding-bottom: 30px;
+    }
+
+    .csplayerlisttitle1 {
+        font-size: 50px;
+    }
+
+    .try {
+        display: flex;
+        vertical-align: middle;
+        height: 210px;
+    }
+
+    .try1 {
+        vertical-align: middle;
+        height: 210px;
+    }
+
+    .socials {
+        width: 17,5%;
+        width: 50px;
+        height: 50px;
+    }
+
+    #parent {
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    .imgnav {
+        padding-left: 30px;
+    }
 }
