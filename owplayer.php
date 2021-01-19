@@ -50,6 +50,7 @@ echo "<!DOCTYPE html>
                 </i>
             </div>
         </div>
+        <img src="https://assets.stickpng.com/images/586273b431349e0568ad89de.png">
         <div class="features__item1">
             <div class="item50">
                 <div class="p50perc">
@@ -119,6 +120,7 @@ echo "<!DOCTYPE html>
         </div>
     </div>
     <!-- Alert -->
+
     <div class="alertt">
         <div class="alert alert-info" role="alert">
 			<span class="alert-title">

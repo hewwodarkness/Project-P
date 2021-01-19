@@ -46,8 +46,8 @@
 
 .playerdevice {
     width: 100%;
-    width: 110px;
-    height: 110px;
+    width: 50px;
+    height: 50px;
     padding: 0 0px;
     object-fit:fill;
     overflow: hidden;
@@ -205,6 +205,7 @@
     text-align: end;
     border-color: lightblue;
     border-style: 5px solid transparent;
+    display: flex;
  
 }
 

@@ -29,7 +29,7 @@ echo "<!DOCTYPE html>
     $result1 = mysqli_query($conn, $sql_select1);
     $row = mysqli_fetch_all($result1, MYSQLI_ASSOC);
 ?>
-
+<body>
 <div class="smallinfo">
     <div class="p50perc1">
         <img class="imgup" src="img/3.svg" height="10px" vspace="5" hspace="5">
@@ -128,9 +128,6 @@ echo "<!DOCTYPE html>
                             <h1 class="csplayerlisttitle1">
                                 <a href="https://playoverwatch.com/en-us/">
                                     <img class="playerdevice" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Overwatch_circle_logo.svg" alt="" href="https://playoverwatch.com/en-us/">
-                                    <h1 class="csplayerlisttitle111">
-                                        Overwatch
-                                    </h1>
                                 </a>
                             </h1>
                         <?php endif ?>
@@ -170,3 +167,4 @@ echo "<!DOCTYPE html>
         <?php endforeach; ?>
     </div>
 </div>
+</body>
