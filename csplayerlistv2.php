@@ -17,53 +17,7 @@ echo "<!DOCTYPE html>
     <div class="csfeatures">
         <?php foreach($row as $row): ?>
             <div class="csplayers" href="csplayer.php?id=<?=$row['id']?>">
-                <div>
-                    <img class="csplayersimg" src="uploads/<?=$row['img']?>" alt="">
-                    <a href="csplayer.php?id=<?=$row['id']?>">
-                        <h1 class="csplayerlisttitle">
-                            <?=$row['name']?>
-                        </h1>
-                    </a>
-                </div>
-                <div>
-                    <img class="csplayersimg1" src="https://www.flaticon.com/svg/static/icons/svg/847/847470.svg" alt="">
-                    <a href="csplayer.php?id=<?=$row['id']?>">
-                        <h1 class="csplayerlisttitle">
-                            DPI
-                        </h1>
-                    </a>
-                    <a href="csplayer.php?id=<?=$row['id']?>">
-                        <h1 class="csplayerlisttitle">
-                            <?=$row['dpi']?>
-                        </h1>
-                    </a>
-                </div>
-                <div>
-                    <img class="csplayersimg1" src="https://www.flaticon.com/svg/static/icons/svg/3231/3231203.svg" alt="">
-                    <a href="csplayer.php?id=<?=$row['id']?>">
-                        <h1 class="csplayerlisttitle">
-                            Sensitivity
-                        </h1>
-                    </a>
-                    <a href="csplayer.php?id=<?=$row['id']?>">
-                        <h1 class="csplayerlisttitle">
-                            <?=$row['sensitivity']?>
-                        </h1>
-                    </a>
-                </div>
-                <div>
-                    <img class="csplayersimg1" src="https://www.flaticon.com/svg/static/icons/svg/953/953842.svg" alt="">
-                    <a href="csplayer.php?id=<?=$row['id']?>">
-                        <h1 class="csplayerlisttitle">
-                            HZ
-                        </h1>
-                    </a>
-                    <a href="csplayer.php?id=<?=$row['id']?>">
-                        <h1 class="csplayerlisttitle">
-                            <?=$row['hz']?>
-                        </h1>
-                    </a>
-                </div>
+                dqwdq
             </div>
         <?php endforeach; ?>
     </div>
