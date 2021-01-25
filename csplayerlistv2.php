@@ -15,10 +15,73 @@ echo "<!DOCTYPE html>
 
 <div class="intro">
     <div class="csfeatures">
-        <?php foreach($row as $row): ?>
-            <div class="csplayers" href="csplayer.php?id=<?=$row['id']?>">
-                dqwdq
+        <div class="list">
+
+            <div class="space">
+                
+            </div>    
+        
+            <div class="country_column">
+                Country
             </div>
+
+            <div class="space">
+                
+            </div>  
+
+            <div class="space">
+                
+            </div> 
+
+            <div class="nickname_column">
+                Main game
+            </div>
+
+            <div class="nickname_column">
+                DPI
+            </div>
+
+            <div class="nickname_column">
+                HZ
+            </div>
+        </div>
+        <?php foreach($row as $row): ?>
+            <a href="csplayer.php?id=<?=$row['id']?>">
+                <div class="csplayers" href="csplayer.php?id=<?=$row['id']?>">
+
+                    <div class="id">
+                        <div>
+                            #<?=$row['id']?>
+                        </div>
+                    </div>
+
+                    <div class="country">
+                        <img class="pfp" src="https://www.flaticon.com/svg/vstatic/svg/940/940279.svg?token=exp=1611571322~hmac=767456eae30e34d83f3178c4b3b2be72" alt="">
+                    </div>
+
+                    <div class="pfp1">
+                        <img class="pfp" src="uploads/<?=$row['img']?>" alt="">
+                    </div>
+
+                    <div class="nickname">
+                        <div>
+                            <?=$row['name']?>
+                        </div>
+                    </div>
+
+                    <div class="maingame">
+                        Overwatch
+                    </div>
+                    
+                    <div class="dpi">
+                        <?=$row['dpi']?>
+                    </div>
+
+                    <div class="hz">
+                        <?=$row['hz']?>
+                    </div>
+                </div>
+            </a>
         <?php endforeach; ?>
     </div>
 </div>
