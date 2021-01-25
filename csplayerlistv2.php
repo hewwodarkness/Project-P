@@ -29,7 +29,7 @@ echo "<!DOCTYPE html>
                 
             </div>  
 
-            <div class="space">
+            <div class="space1">
                 
             </div> 
 
@@ -44,6 +44,23 @@ echo "<!DOCTYPE html>
             <div class="nickname_column">
                 HZ
             </div>
+
+            <div class="devices_column">
+                Mouse
+            </div>
+
+            <div class="devices_column">
+                Keyboard
+            </div>
+
+            <div class="devices_column">
+                GPU
+            </div>
+
+            <div class="devices_column">
+                CPU
+            </div>
+
         </div>
         <?php foreach($row as $row): ?>
             <a href="csplayer.php?id=<?=$row['id']?>">
@@ -56,7 +73,7 @@ echo "<!DOCTYPE html>
                     </div>
 
                     <div class="country">
-                        <img class="pfp" src="https://www.flaticon.com/svg/vstatic/svg/940/940279.svg?token=exp=1611571322~hmac=767456eae30e34d83f3178c4b3b2be72" alt="">
+                        <img class="pfp" src="https://www.freeiconspng.com/thumbs/germany-flag/icons-of-germany-flag-fatherland-icon-png-3.png" alt="">
                     </div>
 
                     <div class="pfp1">
@@ -80,6 +97,23 @@ echo "<!DOCTYPE html>
                     <div class="hz">
                         <?=$row['hz']?>
                     </div>
+
+                    <div class="devices">
+                        Logitech G305
+                    </div>
+                    
+                    <div class="devices">
+                        Corsair K70
+                    </div>
+
+                    <div class="devices">
+                        NVIDIA GTX 1060   
+                    </div>
+
+                    <div class="devices">
+                        Intel Core i7 6700 
+                    </div>
+
                 </div>
             </a>
         <?php endforeach; ?>

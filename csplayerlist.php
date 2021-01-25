@@ -120,7 +120,7 @@ echo "<!DOCTYPE html>
                         </div>
                     </div>
                     </div>
-                    <div class="something">
+                    <!-- <div class="something">
                         <h1 class="csplayerlisttitle11">
                             Main game:
                         </h1>
@@ -161,7 +161,7 @@ echo "<!DOCTYPE html>
                                 </a>
                             </h1>
                         <?php endif ?>
-                    </div>
+                    </div> -->
                 </a>
             </div>
         <?php endforeach; ?>

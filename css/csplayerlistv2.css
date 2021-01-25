@@ -16,7 +16,7 @@ body {
 .csplayers {
     height: 35px;
     opacity: initial;
-    padding: 0 20px 0px 20px;
+    padding: 0 10px 0px 10px;
     border: 2px solid;
     border-color: #30363d;
     background-color:  #30363d;;
@@ -36,13 +36,25 @@ body {
 .list {
     color: rgb(255, 251, 233);
     display: flex;
-    padding: 0 20px 0px 20px;
+    padding: 0 10px 0px 10px;
     height: 25px;
 }
 
 .space {
     width: 120px;
     height: 15px;
+}
+
+.space1 {
+    width: 30px;
+    height: 15px;
+}
+
+.country_column {
+    text-align: center;
+    width: 120px;
+    height: 15px;
+
 }
 
 .nickname_column {
@@ -52,10 +64,10 @@ body {
 
 }
 
-.country_column {
-    text-align: center;
-    width: 120px;
+.devices_column {
+    width: 140px;
     height: 15px;
+    text-align: center;
 
 }
 
@@ -77,13 +89,14 @@ body {
 }
 
 .pfp1 {
-    width: 120px;
+    width: 30px;
     height: 35px;
     margin-top: 5px;
 }
 
 .pfp {
     height: 25px;
+    width: 25px;
 }
 
 .nickname {
@@ -106,6 +119,12 @@ body {
 
 .hz {
     width: 120px;
+    height: 35px;
+    margin-top: 9px;
+}
+
+.devices {
+    width: 140px;
     height: 35px;
     margin-top: 9px;
 }
