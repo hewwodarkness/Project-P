@@ -71,6 +71,10 @@ body {
 
 }
 
+.gray {
+    color:rgb(152, 155, 174);
+
+}
 /*  */
 /*  */
 /*  */
@@ -91,12 +95,17 @@ body {
 .pfp1 {
     width: 30px;
     height: 35px;
-    margin-top: 5px;
+    margin-top: 1px;
 }
 
 .pfp {
-    height: 25px;
-    width: 25px;
+    height: 32px;
+    width: 32px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    object-fit: cover;
 }
 
 .nickname {

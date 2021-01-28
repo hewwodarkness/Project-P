@@ -33,7 +33,7 @@ echo "<!DOCTYPE html>
                 
             </div> 
 
-            <div class="nickname_column">
+            <div class="nickname_column gray">
                 Main game
             </div>
 
@@ -41,7 +41,7 @@ echo "<!DOCTYPE html>
                 DPI
             </div>
 
-            <div class="nickname_column">
+            <div class="nickname_column gray">
                 HZ
             </div>
 
@@ -49,7 +49,7 @@ echo "<!DOCTYPE html>
                 Mouse
             </div>
 
-            <div class="devices_column">
+            <div class="devices_column gray">
                 Keyboard
             </div>
 
@@ -57,7 +57,7 @@ echo "<!DOCTYPE html>
                 GPU
             </div>
 
-            <div class="devices_column">
+            <div class="devices_column gray">
                 CPU
             </div>
 
@@ -86,7 +86,7 @@ echo "<!DOCTYPE html>
                         </div>
                     </div>
 
-                    <div class="maingame">
+                    <div class="maingame gray">
                         Overwatch
                     </div>
                     
@@ -94,7 +94,7 @@ echo "<!DOCTYPE html>
                         <?=$row['dpi']?>
                     </div>
 
-                    <div class="hz">
+                    <div class="hz gray">
                         <?=$row['hz']?>
                     </div>
 
@@ -102,7 +102,7 @@ echo "<!DOCTYPE html>
                         Logitech G305
                     </div>
                     
-                    <div class="devices">
+                    <div class="devices gray">
                         Corsair K70
                     </div>
 
@@ -110,7 +110,7 @@ echo "<!DOCTYPE html>
                         NVIDIA GTX 1060   
                     </div>
 
-                    <div class="devices">
+                    <div class="devices gray">
                         Intel Core i7 6700 
                     </div>
 

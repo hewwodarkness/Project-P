@@ -12,9 +12,9 @@ echo "<!DOCTYPE html>
             <img class="imgnav" src="img/2.png" alt="">
             <nav class="nav">
                 <a class="nav__link" href="http://hewwodarkness.github.io">Portfolio</a>
-                <a class="nav__link" href="csplayerlist.php">Players list</a>
-                <a class="nav__link2" href="csplayerlistv2.php">v2</a>
-                <a class="nav__link" href="form.php">Add player</a>
+                <a class="nav__link" href="csplayerlist">Players list</a>
+                <a class="nav__link2" href="csplayerlistv2">v2</a>
+                <a class="nav__link" href="form">Add player</a>
                 <a class="nav__link" href="https://github.com/hewwodarkness/designv2/issues/new">
                     <img class="menuicon" src="https://www.flaticon.com/svg/static/icons/svg/733/733553.svg">
                         Report bug
