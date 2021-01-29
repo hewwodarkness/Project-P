@@ -63,8 +63,8 @@ echo "<!DOCTYPE html>
 
         </div>
         <?php foreach($row as $row): ?>
-            <a href="csplayer.php?id=<?=$row['id']?>">
-                <div class="csplayers" href="csplayer.php?id=<?=$row['id']?>">
+            <a href="csplayer?id=<?=$row['id']?>">
+                <div class="csplayers" href="csplayer?id=<?=$row['id']?>">
 
                     <div class="id">
                         <div>

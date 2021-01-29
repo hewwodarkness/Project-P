@@ -25,7 +25,7 @@ echo "<!DOCTYPE html>
     $result = mysqli_query($conn, $sql_select);
     $row1 = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-    $sql_select1 = "SELECT * FROM main ORDER BY id LIMIT $limit OFFSET $offset";
+    $sql_select1 = "SELECT * FROM main ORDER BY id LIMIT $limit OFFSET $offset";    
     $result1 = mysqli_query($conn, $sql_select1);
     $row = mysqli_fetch_all($result1, MYSQLI_ASSOC);
 ?>
